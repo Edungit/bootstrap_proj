@@ -15,7 +15,7 @@ The goal of this project is to build a web page that resembles Newsweek homepage
 
 ## Live Demo
 
-[Live Demo Link]()
+[Live Demo Link](https://edungit.github.io/bootstrap_proj/)
 
 
 ## Authors
@@ -25,12 +25,6 @@ The goal of this project is to build a web page that resembles Newsweek homepage
 - Twitter: [Edunaty1](https://twitter.com/Edunaty1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/edun-habeeb-635680131/)
 
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-Feel free to check the [issues page]().
 
 ## Show your support
 
