@@ -166,6 +166,7 @@ h4 a:hover {
 .col-img img {
   max-width: 100%;
 }
+
 .copy-text {
   font-size: 11px;
   font-family: 'Montserrat', sans-serif;
@@ -388,6 +389,7 @@ h4 a:hover {
   .pro-fa {
     display: none !important;
   }
+
   .icons {
     text-align: right;
   }
@@ -397,9 +399,11 @@ h4 a:hover {
   .nw-logo {
     width: 400px;
   }
+
   .left {
     margin-left: -25px;
   }
+
   .red {
     background-color: red;
     height: 40px;
@@ -421,6 +425,7 @@ h4 a:hover {
   .img-text-container {
     display: block !important;
   }
+  
   .red {
     background-color: red;
     height: 40px;
