@@ -3,8 +3,7 @@
   margin: 0px;
   padding: 0px;
   }
-
-
+  
 }
 
 @media only screen and (max-width: 1024px) {
@@ -23,6 +22,7 @@
     margin-left: -36%;
     position: sticky;
   }
+  
   .login {
     background-color: transparent;
     border: transparent;
@@ -142,8 +142,8 @@
     padding-top: 26px;
   }
   .newsweek_footer {
-    width: 290px;
-    height: 50px;
+    width: 210px;
+    height: 35px;
     margin-bottom: -16px;
     margin-left: -10px;
   }
@@ -154,8 +154,10 @@
   .icon {
     height: 18px;
     width: 18px;
-    margin: 5px;
+    margin: 4px;
     cursor: pointer;
+    position: relative;
+    margin-top: 30px;
   }
   .right {
     justify-content: right;
@@ -178,6 +180,7 @@
     margin-left: 70px;
     margin-right: -45px;
   }
+  
   .login {
     background-color: transparent;
     border: transparent;
