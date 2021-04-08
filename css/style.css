@@ -1,19 +1,20 @@
 @media only screen and (max-width: 768px) {
   body {
-  margin: 0px;
-  padding: 0px;
+    margin: 0;
+    padding: 0;
   }
-  
 }
 
 @media only screen and (max-width: 1024px) {
   body {
     overflow-x: hidden;
   }
+
   .head {
     background-color: #ff0500;
     min-width: 95%;
   }
+
   .newsweek {
     height: 30px;
     width: 150px;
@@ -22,7 +23,7 @@
     margin-left: -36%;
     position: sticky;
   }
-  
+
   .login {
     background-color: transparent;
     border: transparent;
@@ -34,6 +35,7 @@
     margin-left: 120px;
     position: sticky;
   }
+
   .subscribe {
     border-radius: 50px;
     background-color: #ffe400;
@@ -47,6 +49,7 @@
     margin-right: -10px;
     position: sticky;
   }
+
   .menu {
     display: block;
     height: 30px;
@@ -59,44 +62,56 @@
     margin-left: -50px;
     position: sticky;
   }
+
   .date {
     display: none;
   }
+
   .lower {
     padding-top: 1px;
   }
+
   .nav-links {
     position: sticky;
     min-width: 100%;
   }
+
   header .new-heads {
-    display: none
-  }
-  .new-heads li a{
     display: none;
   }
+
+  .new-heads li a {
+    display: none;
+  }
+
   .line {
     min-width: 97%;
     margin-top: -8px;
   }
+
   .search {
     display: none;
   }
+
   .s-icon {
     width: 17px;
     height: 17px;
     cursor: pointer;
     margin-left: -25px;
   }
+
   .new-heads2 {
     display: none;
   }
-  .new-heads2 li a{
+
+  .new-heads2 li a {
     display: none;
   }
+
   .hr {
     display: none;
   }
+
   .new-heads3 {
     display: flex;
     list-style: none;
@@ -106,51 +121,61 @@
     position: relative;
     margin-top: -10px;
     padding-right: -10px;
-    padding-left: 0px;
+    padding-left: 0;
     min-width: 100%;
     border-top-right-radius: 25px;
     line-height: 11px;
   }
-  .new-heads3 li a{
+
+  .new-heads3 li a {
     margin-right: 15px;
     text-decoration: none;
     color: rgb(106, 104, 104);
     font-family: 'Montserrat', sans-serif;
     font-size: 10.5px;
   }
+
   .editions {
     font-size: 9px;
   }
+
   .break {
     display: block;
   }
+
   .desktop {
     display: none;
   }
+
   section {
     min-height: 100%;
     background-color: transparent;
     min-width: 97%;
     margin-bottom: 60vh;
   }
+
   .copy {
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     margin-top: 150px;
   }
+
   .up {
     padding-top: 26px;
   }
+
   .newsweek_footer {
     width: 210px;
     height: 35px;
     margin-bottom: -16px;
     margin-left: -10px;
   }
+
   .footer {
     margin-left: 16px;
     min-width: 97%;
   }
+
   .icon {
     height: 18px;
     width: 18px;
@@ -159,6 +184,7 @@
     position: relative;
     margin-top: 30px;
   }
+
   .right {
     justify-content: right;
     text-align: right;
@@ -169,18 +195,20 @@
   body {
     overflow-x: hidden;
   }
+
   .head {
     background-color: #ff0500;
     min-width: 95%;
     padding-top: 20px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
   }
+
   .newsweek {
     cursor: pointer;
     margin-left: 70px;
     margin-right: -45px;
   }
-  
+
   .login {
     background-color: transparent;
     border: transparent;
@@ -191,6 +219,7 @@
     margin-right: 7px;
     margin-left: 70%;
   }
+
   .subscribe {
     border-radius: 50px;
     background-color: #ffe400;
@@ -201,19 +230,23 @@
     width: 150px;
     margin-left: 15px;
   }
+
   .date {
     color: white;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
     font-size: 11px;
   }
+
   .lower {
     padding-top: 40px;
   }
+
   .nav-links {
     position: sticky;
     min-width: 100%;
   }
+
   header .new-heads {
     display: flex;
     list-style: none;
@@ -222,11 +255,12 @@
     background-color: white;
     position: relative;
     padding-right: -10px;
-    padding-left: 0px;
+    padding-left: 0;
     min-width: 100%;
     border-top-right-radius: 25px;
   }
-  .new-heads li a{
+
+  .new-heads li a {
     margin: 10px;
     text-decoration: none;
     color: black;
@@ -234,22 +268,26 @@
     font-weight: 800;
     font-size: 11px;
   }
+
   .line {
     min-width: 97%;
     margin-top: -8px;
   }
+
   .search {
     border: transparent;
     font-family: 'Montserrat', sans-serif;
     padding-top: 4px;
     font-size: 12px;
   }
+
   .s-icon {
     width: 17px;
     height: 17px;
     cursor: pointer;
     margin-left: -25px;
   }
+
   .new-heads2 {
     display: flex;
     list-style: none;
@@ -259,11 +297,12 @@
     position: relative;
     margin-top: -10px;
     padding-right: -10px;
-    padding-left: 0px;
+    padding-left: 0;
     min-width: 100%;
     border-top-right-radius: 25px;
   }
-  .new-heads2 li a{
+
+  .new-heads2 li a {
     margin: 10px;
     text-decoration: none;
     color: black;
@@ -271,6 +310,7 @@
     font-weight: 800;
     font-size: 11px;
   }
+
   .new-heads3 {
     display: flex;
     list-style: none;
@@ -280,61 +320,72 @@
     position: relative;
     margin-top: -10px;
     padding-right: -10px;
-    padding-left: 0px;
+    padding-left: 0;
     min-width: 100%;
     border-top-right-radius: 25px;
   }
-  .new-heads3 li a{
+
+  .new-heads3 li a {
     margin-right: 15px;
     text-decoration: none;
     color: rgb(106, 104, 104);
     font-family: 'Montserrat', sans-serif;
     font-size: 12px;
   }
+
   .editions {
     font-size: 9px;
   }
+
   .break {
     display: none;
   }
+
   .desktop {
     display: block;
   }
+
   section {
     min-height: 100%;
     background-color: transparent;
     min-width: 97%;
     margin-bottom: 60vh;
   }
+
   .copy {
     font-family: 'Montserrat', sans-serif;
     font-size: 10px;
     margin-top: 150px;
     padding-top: 100px;
   }
+
   .up {
     margin-top: 30px;
   }
+
   .newsweek_footer {
     width: 290px;
     height: 50px;
   }
+
   .footer {
     margin-left: 16px;
     min-width: 97%;
   }
+
   .icon {
     height: 25px;
     width: 25px;
     margin: 5px;
     cursor: pointer;
   }
+
   .right {
     justify-content: right;
     text-align: right;
   }
+
   .menu {
     display: none;
   }
-
 }
