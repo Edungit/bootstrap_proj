@@ -42,7 +42,8 @@ button {
 }
 
 .nw-logo {
-  width: 400px;
+  width: 350px;
+  margin-left: 45px;
 }
 
 .nw-logo path {
@@ -52,6 +53,8 @@ button {
 .red {
   background-color: red;
   height: 80px;
+  margin-top: -30px;
+  top: 0%;
 }
 
 .grey {
@@ -407,6 +410,7 @@ h4 a:hover {
   .red {
     background-color: red;
     height: 40px;
+    margin-top: -30px;
   }
 }
 
@@ -429,5 +433,6 @@ h4 a:hover {
   .red {
     background-color: red;
     height: 40px;
+    margin-top: -30px;
   }
 }
