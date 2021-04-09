@@ -21,6 +21,10 @@ The goal of this project is to build a web page that resembles Newsweek homepage
 - Twitter: [Edunaty1](https://twitter.com/Edunaty1)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/edun-habeeb-635680131/)
 
+## Live Demo
+
+[Live Demo Link](https://edungit.github.io/bootstrap_proj/)
+
 
 ## Show your support
 
