@@ -50,11 +50,15 @@ button {
   fill: white;
 }
 
-.red {
+.red-nav {
   background-color: red;
   height: 80px;
   margin-top: -30px;
   top: 0%;
+}
+
+.red {
+  background-color: red;
 }
 
 .grey {
