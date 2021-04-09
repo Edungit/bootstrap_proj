@@ -1,0 +1,442 @@
+body {
+  box-sizing: border-box;
+  border: 0 none;
+  list-style: none outside none;
+  background-color: #f4f5f6;
+  color: #333;
+  font-family: 'Roboto Condensed', sans-serif;
+  overflow-x: hidden;
+  font-size: 12px;
+  line-height: 20px;
+}
+
+body > .container {
+  background-color: white;
+}
+
+h5 {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  outline: none;
+}
+
+/* navbar */
+.date {
+  font: 16px/34px "Roboto Condensed", sans-serif;
+  color: white;
+  display: block;
+}
+
+.top-fa {
+  position: absolute;
+  float: right;
+  margin-top: -1.5%;
+  margin-left: 4%;
+}
+
+.nw-logo {
+  width: 350px;
+  margin-left: 80px;
+}
+
+.nw-logo path {
+  fill: white;
+}
+
+.red-nav {
+  background-color: red;
+  height: 80px;
+  margin-top: -30px;
+  top: 0%;
+}
+
+.red {
+  background-color: red;
+}
+
+.grey {
+  color: black;
+  background-color: rgb(233, 233, 233);
+}
+
+.btn-1 {
+  font-size: 18px;
+}
+
+.btn-2 {
+  background-color: #ffe400;
+  color: #000;
+  font-size: 12px;
+}
+
+.ham-fa {
+  color: #f4f5f6a9;
+  font-size: 24px;
+}
+
+.bottom-nav {
+  margin: 0 auto;
+  padding: 1em 0;
+  max-width: 100%;
+  background-color: white;
+  padding-right: 2%;
+  display: flex;
+}
+
+.nav-link {
+  color: black;
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.border-right {
+  border-right: 1px solid hsla(0, 2%, 59%, 0.808);
+}
+
+.nav-link:hover {
+  color: #f72210;
+}
+
+.trending-list {
+  padding: 0.6em 2em;
+  font-size: 0.95em;
+  letter-spacing: -1px;
+}
+
+h4 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar-bottom-text a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.col-img a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.icons,
+.icons a {
+  opacity: 0.6;
+  font-size: 28px;
+  color: #000;
+}
+
+.debate-info > a {
+  font-size: 17px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.block-title > a {
+  color: #f72210;
+}
+
+h4 a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.icons i {
+  margin: 0 2px;
+}
+
+.bottom-img {
+  max-width: 100%;
+}
+
+.navbar-bottom-text {
+  font-size: 14px;
+}
+
+.col-img {
+  position: relative;
+  background-position: 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.col-img img {
+  max-width: 100%;
+}
+
+.copy-text {
+  font-size: 11px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.topic {
+  background-color: rgba(255, 255, 255, 0.9);
+  color: red;
+  position: absolute;
+  bottom: 0;
+  text-transform: uppercase;
+  padding: 2px 4px;
+  font-weight: bold;
+}
+
+.insight {
+  background-color: rgba(255, 255, 255, 0.9);
+  display: inline;
+  color: #3581f4;
+  position: absolute;
+  bottom: 0;
+  text-transform: uppercase;
+  padding: 2px 4px;
+  font-weight: bold;
+}
+
+.debate a:hover {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: red;
+}
+
+.debate-info {
+  margin-left: 10px;
+}
+
+.contestant {
+  border-bottom: 1px solid black;
+}
+
+.vs-container {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  width: 100%;
+}
+
+.versus {
+  position: absolute;
+  font-weight: bold;
+  background-color: black;
+  color: white;
+  width: 35px;
+  height: 35px;
+  align-items: center;
+  justify-content: center;
+  top: -20px;
+}
+
+.signup-wrapper p {
+  font-size: 13px;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.signup-img {
+  width: 9rem;
+  margin-right: 10px;
+  height: 50px;
+  max-height: 100%;
+  background-color: red;
+}
+
+.story .story__img-box {
+  width: 12rem;
+  align-self: stretch;
+}
+
+.story .story__title {
+  font-size: 0.9rem;
+}
+
+.story .story__link {
+  color: var(--black);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.story .story__link:hover {
+  text-decoration: underline solid var(--primary-color);
+  text-decoration-thickness: 2px;
+}
+
+.story-paragraph {
+  font-size: 0.9rem;
+  color: var(--tertiary-color);
+  text-transform: lowercase;
+}
+
+/* content */
+.block-title {
+  font: bold 16px/16px "Roboto Condensed", sans-serif;
+  padding-bottom: 11px;
+  border-top: 1px solid #d9d9d9;
+  color: #f72210;
+  padding-top: 25px;
+  font-size: 22px;
+  line-height: 22px;
+  text-transform: none;
+}
+
+.image {
+  list-style: none outside none;
+}
+
+.art-cage {
+  margin-left: 18px;
+}
+
+.cont-subfeature {
+  list-style: none;
+}
+
+.magazine p {
+  line-height: 1.7rem;
+}
+
+.magazine a:hover {
+  text-decoration: underline;
+  text-decoration-color: red;
+  color: inherit;
+}
+
+.magazine-title {
+  height: 100px;
+}
+
+.magazine-img-logo {
+  height: 30px;
+  width: 30px;
+  background-color: red;
+  margin-right: 10px;
+}
+
+.mag-img1 img {
+  max-width: 100%;
+}
+
+.mag-img img {
+  max-width: 100%;
+}
+
+.cover1 {
+  color: white;
+  margin-right: 10px;
+}
+
+.cover2 {
+  color: red;
+  background-color: white;
+}
+
+.cover2:hover {
+  color: red;
+}
+
+.newsletter h5 {
+  color: red;
+}
+
+.subscribe-container {
+  margin-left: 10px;
+}
+
+.subscribe-img-container {
+  height: 300px;
+  width: 35%;
+}
+
+.subscribe-img-container-newsletter {
+  width: 400px;
+  margin-right: 20px;
+}
+
+.subscribe-img-container-newsletter img {
+  max-width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.subscribe-img-container img {
+  max-width: 100%;
+}
+
+.subscribe-img-container .img2 {
+  position: absolute;
+  left: 80px;
+  top: 20px;
+}
+
+.subscribe-text h3 {
+  color: black;
+}
+
+@media only screen and (min-width: 992px) {
+  body {
+    margin: 0;
+  }
+
+  .btn-2 {
+    font-size: small;
+  }
+
+  .ham-fa {
+    font-size: 30px;
+    margin-left: 10px;
+    color: #f4f5f6a9;
+    display: inline;
+  }
+
+  .pro-fa {
+    display: none !important;
+  }
+
+  .icons {
+    text-align: right;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .nw-logo {
+    width: 400px;
+  }
+
+  .left {
+    margin-left: -25px;
+  }
+
+  .red {
+    background-color: red;
+    height: 40px;
+    margin-top: -30px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .nw-logo {
+    width: 120px;
+  }
+
+  .pro-fa {
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 1.5rem;
+    color: #f4f5f6a9;
+  }
+
+  .img-text-container {
+    display: block !important;
+  }
+
+  .red {
+    background-color: red;
+    height: 40px;
+    margin-top: -30px;
+  }
+}
