@@ -13,10 +13,6 @@ The goal of this project is to build a web page that resembles Newsweek homepage
 - CSS
 - Technologies used such as: Linters (Lighthouse, Webhint, Stylelint), Extensions (Live server, Prettier), Git, among others.
 
-## Live Demo
-
-[Live Demo Link](https://edungit.github.io/bootstrap_proj/)
-
 
 ## Authors
 
