@@ -24,6 +24,10 @@
     position: sticky;
   }
 
+  .small-white {
+    background-color: #c2d4d7;
+  }
+
   .login {
     background-color: transparent;
     border: transparent;
